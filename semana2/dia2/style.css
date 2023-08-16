@@ -17,3 +17,29 @@ h1 {
     color: cornflowerblue;
     font-size: 50px;
 }
+
+button {
+    background-color: red;
+    padding: 10px; /*Sirve para dar espacio interno*/
+    border-radius: 20px;
+    border: none;
+    transition: all 1.5s ease;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+.pseudo-clase-hover:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.pseudo-clase-link-hover {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.pseudo-clase-link-hover:hover{
+    text-decoration: underline;
+}
