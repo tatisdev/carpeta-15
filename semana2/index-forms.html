@@ -7,7 +7,61 @@
 </head>
 <body>
     <h1>Registro de usuarios</h1>
-    <form action="">
+    <form action="" method="get">
+        <p>
+            <input type="text" placeholder="Nombre" name="nombre">
+        </p>
+        <p>
+            <input type="text" placeholder="Apellido" name="apellido">
+        </p>
+        <p>
+            <input type="email" placeholder="E-mail" name="correo">
+        </p>
+        <p>
+            <input type="date" placeholder="Fecha de nacimiento" name="f_nacimiento">
+        </p>
+        <p>
+            <input type="number" placeholder="Ingresa tu DNI" maxlength="8" name="dni">
+        </p>
+        <p>
+            <input type="tel" placeholder="Telefono" name="telefono">
+        </p>
+        <p>
+            <input type="password" placeholder="Ingrese su contraseña" name="pass">
+        </p>
+        <p>Genero</p>
+        <p>
+            <label for="">
+                Masculino
+                <input id="masculino" type="radio" name="genero" value="masculino">
+            </label>
+        </p>
+        <p>
+            <label for="">
+                Femenino
+                <input id="femenino" type="radio" name="genero" value="femenino">
+            </label>
+        </p>
+        <p>
+            <label for="">
+                Otro
+                <input id="otro" type="radio" name="genero" value="otros">
+            </label>
+        </p>
+        <p>Paises</p>
+        <select name="" id="">
+            <option value="" disabled selected>Paises</option>
+            <option value="pe">Perú</option>
+            <option value="arg">Argentina</option>
+            <option value="chile">Chile</option>
+            <option value="col">Colombia</option>
+        </select>
+            <p>Cursos</p>
+        <p>Javascript<input type="checkbox" name="curso_1"></p>
+        <p>HTML <input type="checkbox" name="curso_2"></p>
+        <p>CSS <input type="checkbox" name="curso_3"></p>
+        <p>React JS <input type="checkbox" name="curso_3"></p>
+        <p>Next JS <input type="checkbox" name="curso_4"></p>
         <button type="submit">Enviar</button>
     </form>
 </body>

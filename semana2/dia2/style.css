@@ -1,0 +1,19 @@
+h1 {
+    color: blueviolet;
+    font-size: 80px;
+}
+
+
+/*Esto es una clase - inicia con punto*/
+
+.selector-clase {
+    color: red;
+    font-size: 30px;
+}
+
+/*Esto es un ID - inicia con un # - solo se puede utilizar una vez*/
+
+#selector-id {
+    color: cornflowerblue;
+    font-size: 50px;
+}
