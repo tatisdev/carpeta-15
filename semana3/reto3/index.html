@@ -11,17 +11,73 @@
     <section class="container flex">
         <div class="container__box flex radius-md p-25">
         <div class="radius-md p-20">
-                <div class="flex step__container">
+                <div class="flex step__container uppercase text-white">
             <div>
                 <span class="step__circle">1</span>
             </div>
             <div>
-                <p>step 1</p>
-                <p>your info</p>
+                <p class="step__title">step 1</p>
+                <p class="step__description">your info</p>
         </div>
         </div>
+
+        <div class="flex step__container uppercase text-white">
+            <div>
+                <span class="step__circle">2</span>
+            </div>
+            <div>
+                <p class="step__title">step 2</p>
+                <p class="step__description">Select plan</p>
         </div>
-        <div class="p-20">derecha</div>
+        </div>
+
+        <div class="flex step__container uppercase text-white">
+            <div>
+                <span class="step__circle">3</span>
+            </div>
+            <div>
+                <p class="step__title">step 3</p>
+                <p class="step__description">add-ons</p>
+        </div>
+        </div>
+
+        <div class="flex step__container uppercase text-white">
+            <div>
+                <span class="step__circle">4</span>
+            </div>
+            <div>
+                <p class="step__title">step 4</p>
+                <p class="step__description">summary</p>
+        </div>
+        </div>
+
+        </div>
+        <div class="p-20">
+            <div class="container__info">
+                <h1 class="title__info">Personal info</h1>
+                <p class="description__info">Please provide your name, email address, and phone number.</p>
+                <form action="">
+                    <label for="" class="container__input">
+                        <span>Name</span>
+                        <input type="text" placeholder="e.g. Tatiana Ramos" autocomplete="new-password">
+                    </label>
+
+                    <label for="" class="container__input">
+                        <span>Email Address</span>
+                        <input type="email" placeholder="e.g. tatiramosr@gmail.com" autocomplete="new-password">
+                    </label>
+
+                    <label for="" class="container__input">
+                        <span>Phone Number</span>
+                        <input type="tel" placeholder="e.g. +51 958 741 847" autocomplete="new-password" >
+                    </label>
+                    <div class="container__button">
+                    <button type="submit" class="button__info text-white">Next Step</button>
+                </div>
+                </form>
+                
+            </div>
+        </div>
         </div>
     </section>
     </body>
